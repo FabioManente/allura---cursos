@@ -1,0 +1,111 @@
+* {
+    dimensionamento de caixa: borda-caixa;
+    Margem: 0;
+    preenchimento: 0;
+    cor: branco;
+}
+
+corpo {
+    fundo: linear-gradiente(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    Altura: 100VH;
+    Display: Flex;
+    alinhar-itens: centro;
+    justificar-conteúdo: centro;
+}
+
+
+corpo::antes {
+    imagem de fundo: url("img/code.png");
+    fundo-repetição: não-repetição;
+    posição-fundo: direita;
+    Conteúdo: "";
+    display: bloco;
+    posição: absoluta;
+    largura: 100%;
+    altura: 100%;
+    opacidade: 0.4;
+}
+
+. recipiente {
+    largura: 1200px;
+    Altura: 600px;
+    Display: Flex;
+    alinhar-itens: centro;
+    justificar-conteúdo: espaço-entre;
+    raio de borda: 24px;
+    borda: 1px sólido #1875E8;
+    caixa-sombra: 4px 4px 20px 0px rgba (1, 8, 14, 0,15);
+    imagem de fundo: url("img/Ruido.png");
+    tamanho de fundo: 100% 100%;
+    posição: relativa;
+}
+
+
+. container__conteudo {
+    Display: Flex;
+    alinhar-itens: centro;
+    posição: absoluta;
+    Fundo: 0;
+}
+
+. container__informacoes {
+    Flex: 1;
+    preenchimento: 3rem;
+}
+
+. container__botao {
+    raio de borda: 16px;
+    fundo: #1875E8;
+    preenchimento: 16px 24px;
+    largura: 100%;
+    tamanho da fonte: 24px;
+    peso da fonte: 700;
+    fronteira: nenhuma;
+    margem-topo: 2rem;
+}
+
+botão:desativado {
+    cor de fundo: cinza;
+}
+
+. container__texto {
+    Margem: 16px 0 16px 0;
+}
+
+. container__texto-azul {
+    cor: #1875E8;
+}
+
+. container__input {
+    largura: 100%;
+    altura: 72px;
+    raio de borda: 16px;
+    cor de fundo: #FFF;
+    fronteira: nenhuma;
+    cor: #1875E8;
+    preenchimento: 2rem;
+    tamanho da fonte: 24px;
+    peso da fonte: 700;
+    fonte-família: 'Inter', sans-serif;
+}
+
+. container__botoes {
+    Display: Flex;
+    Intervalo: 2em;
+}
+
+h1 {
+    fonte-família: 'Chakra Petch', sans-serif;
+    tamanho da fonte: 72px;
+    fundo de preenchimento: 3rem;
+}
+
+p,
+botão {
+    fonte-família: 'Inter', sans-serif;
+}
+
+. texto__paragrafo {
+    tamanho da fonte: 32px;
+    Peso da fonte: 400;
+}
