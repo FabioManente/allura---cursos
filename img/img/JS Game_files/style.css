@@ -1,0 +1,8 @@
+* {
+    cor de fundo: preto;
+    imagem de fundo: url('./img/bg.png');
+    fundo-repetição: não-repetição;
+    tamanho do fundo: capa;
+    posição-fundo: centro;
+    opacidade: 0.4;
+}
